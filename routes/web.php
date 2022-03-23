@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 
 Route::get('/test', [test::class, 'index']);
+Route::view('tst', 'return tst'); 
